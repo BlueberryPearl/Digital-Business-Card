@@ -56,7 +56,13 @@ body {
     margin-top: 7px;
     margin-bottom: 5px;
     text-decoration: none;
+    transition: color 0.5s ease;
 
+
+}
+
+.website:hover {
+    color: rgb(121, 209, 121);
 }
 
 .buttons {
@@ -80,7 +86,13 @@ body {
     border-color: #D1D5DB;
     flex: 1 1 0;
     text-decoration: none;
+    transition: all 0.5s ease;
 
+}
+
+.email:hover {
+    background-color: rgb(147, 147, 147);
+    color: #222934;
 }
 
 .linkedIn {
@@ -91,6 +103,13 @@ body {
     border: 0px;
     flex: 1 1 0;
     text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.linkedIn:hover {
+    background-color: #1760b9;
+    color: rgb(228, 228, 228);
+
 }
 
 .mainSection {
