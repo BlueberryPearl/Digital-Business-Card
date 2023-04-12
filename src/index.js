@@ -1,17 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Info from "./components/info";
+import About from "./components/about";
+import Interests from "./components/interests";
+import Footer from './components/footer';
+
+
+function Card() {
+  return (
+    <div className='page'>
+      <div className='main'>
+        <Info />
+        <About />
+        <Interests />
+        <Footer />
+      </div>
+    </div>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Card />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+

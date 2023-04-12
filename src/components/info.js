@@ -1,0 +1,17 @@
+import React from 'react';
+
+
+export default function Info() {
+    return (
+        <div className='information'>
+            <img src="../Assests/Photo-sqr.jpg" className='profilePic' />
+            <h2>Najette Chouchane</h2>
+            <p>Frontend Developer</p>
+            <a href='https://www.najette.co.uk/' target="_blank" rel="noopener noreferrer" className='website'>najette.co.uk</a>
+            <div className='buttons'>
+                <a href='mailto: najette@chouchane.com' className='email'><i class="fa-solid fa-envelope"></i>  Email</a>
+                <a href='https://www.linkedin.com/in/najette-chouchane-a939abb9/' target="_blank" rel="noopener noreferrer" className='linkedIn'><i class="fa-brands fa-linkedin"></i>  LinkedIn</a>
+            </div>
+        </div>
+    )
+}
