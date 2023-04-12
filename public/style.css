@@ -123,3 +123,16 @@ body {
     margin-top: 30px;
     border-radius: 0 0 10px 10px;
 }
+
+.gitHub-icon,
+.instagram-icon,
+.twitter-icon {
+    fill: #CE931F;
+    transition: fill 0.5s ease;
+}
+
+.gitHub-icon:hover,
+.instagram-icon:hover,
+.twitter-icon:hover {
+    fill: #ffce3a;
+}
