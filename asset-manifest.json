@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.6cc4315f.js",
-    "static/media/Instagram Icon.svg": "/static/media/Instagram Icon.7761aaf8c225f8aee28426e61445a439.svg",
-    "static/media/GitHub Icon.svg": "/static/media/GitHub Icon.7ddaa6f3989d97f58ac8cbaff77c71e3.svg",
-    "static/media/Twitter Icon.svg": "/static/media/Twitter Icon.9b61e92dd492f0cc65a7d9e4cb1e90e3.svg",
-    "index.html": "/index.html",
-    "main.6cc4315f.js.map": "/static/js/main.6cc4315f.js.map"
+    "main.js": "/Digital-Business-Card/static/js/main.0f28d20e.js",
+    "static/media/Instagram Icon.svg": "/Digital-Business-Card/static/media/Instagram Icon.7761aaf8c225f8aee28426e61445a439.svg",
+    "static/media/GitHub Icon.svg": "/Digital-Business-Card/static/media/GitHub Icon.7ddaa6f3989d97f58ac8cbaff77c71e3.svg",
+    "static/media/Twitter Icon.svg": "/Digital-Business-Card/static/media/Twitter Icon.9b61e92dd492f0cc65a7d9e4cb1e90e3.svg",
+    "index.html": "/Digital-Business-Card/index.html",
+    "main.0f28d20e.js.map": "/Digital-Business-Card/static/js/main.0f28d20e.js.map"
   },
   "entrypoints": [
-    "static/js/main.6cc4315f.js"
+    "static/js/main.0f28d20e.js"
   ]
 }
