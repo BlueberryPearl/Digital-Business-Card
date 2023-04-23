@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Info from "./components/info";
+import Info from "./components/Info/info";
 import About from "./components/about";
 import Interests from "./components/interests";
 import Footer from './components/Footer/footer';

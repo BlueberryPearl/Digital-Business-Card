@@ -1,10 +1,11 @@
 import React from 'react';
+import Photo from './Photo-sqr.jpg'
 
 
 export default function Info() {
     return (
         <div className='information'>
-            <img src="../Assests/Photo-sqr.jpg" className='profilePic' />
+            <img src={Photo} className='profilePic' alt='Profile picture' />
             <h2>Najette Chouchane</h2>
             <p>Frontend Developer</p>
             <a href='https://www.najette.co.uk/' target="_blank" rel="noopener noreferrer" className='website'>najette.co.uk</a>
