@@ -12,7 +12,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PUBLIC_URL=/&&react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^5.0.0"
   },
-  "homepage": "https://blueberrypearl.github.io/Digital-Business-Card/"
+  "homepage": "http://blueberrypearl.github.io/Digital-Business-Card"
 }
