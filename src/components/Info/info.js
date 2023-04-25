@@ -1,5 +1,5 @@
 import React from 'react';
-import Photo from './Photo-sqr.jpg'
+import Photo from './Photo.jpg'
 
 
 export default function Info() {
