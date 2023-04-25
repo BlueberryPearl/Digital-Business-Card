@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/Digital-Business-Card/static/js/main.f1de7813.js",
-    "static/media/Photo-sqr.jpg": "/Digital-Business-Card/static/media/Photo-sqr.596d31580db0bf41af49.jpg",
+    "main.js": "/Digital-Business-Card/static/js/main.324f7175.js",
+    "static/media/Photo.jpg": "/Digital-Business-Card/static/media/Photo.d46985be8d1c34ad91a5.jpg",
     "static/media/Instagram Icon.svg": "/Digital-Business-Card/static/media/Instagram Icon.66ae7e6d80aaa1f7ebf3ad2c51b8ccbb.svg",
     "static/media/GitHub Icon.svg": "/Digital-Business-Card/static/media/GitHub Icon.2b53c0eb9d5357b18a0f7f84eabef64a.svg",
     "index.html": "/Digital-Business-Card/index.html",
     "static/media/youtube.svg": "/Digital-Business-Card/static/media/youtube.46f158c60346b29021bc54b8108ede8b.svg",
-    "main.f1de7813.js.map": "/Digital-Business-Card/static/js/main.f1de7813.js.map"
+    "main.324f7175.js.map": "/Digital-Business-Card/static/js/main.324f7175.js.map"
   },
   "entrypoints": [
-    "static/js/main.f1de7813.js"
+    "static/js/main.324f7175.js"
   ]
 }
