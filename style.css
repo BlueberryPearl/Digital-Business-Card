@@ -5,18 +5,16 @@ body {
 .page {
     background-color: #23252C;
     padding: 40px 50px;
-    width: 600px;
+    max-width: 600px;
     margin: 50px auto;
 }
 
 .main {
     background-color: #1C1C1C;
-    width: 475.5px;
+    max-width: 475.5px;
     font-family: 'Inter', sans-serif;
     margin: auto;
-    border-radius: 0 0 10px 10px;
-
-
+    border-radius: 10px 10px 0px 0px;
 }
 
 .information {
@@ -30,8 +28,8 @@ body {
 
 .profilePic {
     border-radius: 10px 10px 0 0;
-    width: 475.5px;
-    height: 475.5px;
+    width: 100%;
+    height: auto;
 }
 
 .information>h2 {
@@ -39,7 +37,6 @@ body {
     font-size: 37.5px;
     font-weight: 700;
     margin-bottom: 0px;
-
 }
 
 .information>p {
@@ -57,8 +54,6 @@ body {
     margin-bottom: 5px;
     text-decoration: none;
     transition: color 0.5s ease;
-
-
 }
 
 .website:hover {
@@ -74,7 +69,6 @@ body {
     margin-top: 17px;
     margin-bottom: 20px;
     padding: 0 40px;
-
 }
 
 .email {
@@ -115,7 +109,7 @@ body {
 .mainSection {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 40px;
+    padding: 0 40px;
 
 }
 
@@ -133,15 +127,16 @@ body {
 }
 
 .footer {
-
     display: flex;
     background-color: #161619;
     justify-content: center;
+    align-items: center;
     gap: 30px;
     flex-wrap: nowrap;
-    padding: 15px 80px;
-    margin-top: 30px;
+    padding: 15px 0px;
     border-radius: 0 0 10px 10px;
+    max-width: 475.5px;
+    margin: 0 auto;
 }
 
 .gitHub-icon,
@@ -161,4 +156,54 @@ body {
 .youtube-icon {
     border: 1.5px solid #CE931F;
     border-radius: 4px;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+    body {
+        margin: 0px;
+    }
+
+    .page {
+        padding: 0px;
+        max-width: 480px;
+        margin: 0px;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 480px;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    .profilePic {
+        border-radius: 50px;
+        max-width: 300px;
+        max-height: 300px;
+        border: 2px solid rgb(236, 176, 25);
+    }
+
+    .information>h2 {
+        font-size: 30px;
+    }
+
+    .buttons {
+        display: flex;
+        font-size: 15px;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px;
+    }
+
+    .footer {
+        max-width: 480px;
+        padding: 15px 80px;
+        border-radius: 0;
+    }
 }
