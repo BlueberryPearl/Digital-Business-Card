@@ -13,8 +13,8 @@ function Card() {
         <Info />
         <About />
         <Interests />
-        <Footer />
       </div>
+      <Footer />
     </div>
   )
 }
